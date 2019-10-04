@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e57abb7.chunk.css",
+    "main.js": "/static/js/main.7a48b4f4.chunk.js",
+    "main.js.map": "/static/js/main.7a48b4f4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8bb396af.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8bb396af.js.map",
+    "static/css/2.510409cd.chunk.css": "/static/css/2.510409cd.chunk.css",
+    "static/js/2.14b3de91.chunk.js": "/static/js/2.14b3de91.chunk.js",
+    "static/js/2.14b3de91.chunk.js.map": "/static/js/2.14b3de91.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cda218769dba8eb6ba35c31d2303c401.js": "/precache-manifest.cda218769dba8eb6ba35c31d2303c401.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.7e57abb7.chunk.css.map": "/static/css/main.7e57abb7.chunk.css.map",
+    "static/media/miseEnPlace.png": "/static/media/miseEnPlace.f3ab9385.png",
+    "static/media/noLate.png": "/static/media/noLate.08197f25.png",
+    "static/media/tweetTrace.png": "/static/media/tweetTrace.5e9b2e28.png"
+  }
+}
