@@ -6,7 +6,7 @@ import { Form, Button } from "react-bootstrap/";
 import Axios from "axios";
 
 const baseUrl =
-  "proccess.env.baseUrl" || "http://localhost:3030";
+  "process.env.baseUrl" || "http://localhost:3030";
 
 class ContactPage extends React.Component {
   constructor(props) {
