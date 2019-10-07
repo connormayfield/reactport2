@@ -5,7 +5,7 @@ import Content from "../components/Content";
 import { Form, Button } from "react-bootstrap/";
 import Axios from "axios";
 
-const baseUrl = "connormayfield.herokuapp.com" || "http://localhost:3030";
+const baseUrl = "" || "http://localhost:3030";
 
 class ContactPage extends React.Component {
   constructor(props) {
