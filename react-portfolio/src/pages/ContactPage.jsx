@@ -5,7 +5,8 @@ import Content from "../components/Content";
 import { Form, Button } from "react-bootstrap/";
 import Axios from "axios";
 
-const baseUrl = "connormayfield.herokuapp.com" || "http://localhost:3030";
+const baseUrl =
+  "proccess.env.baseUrl" || "http://localhost:3030";
 
 class ContactPage extends React.Component {
   constructor(props) {
@@ -47,6 +48,7 @@ class ContactPage extends React.Component {
           this.setState({
             disabled: false,
             emailSent: true
+            console.log("not sure what happened dude")
           });
         }
       })
