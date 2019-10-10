@@ -4,7 +4,7 @@ import Content from "../components/Content";
 
 function AboutPage(props) {
   return (
-    <div>
+    <div className="about-section" id="about-section">
       <Hero className="justify-content-center" title={props.title} />
 
       <Content>

@@ -1,5 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+// import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-scroll";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -45,13 +47,34 @@ class App extends React.Component {
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">
+                <Link
+                  className="nav-link"
+                  to="main"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
                   Home
                 </Link>
-                <Link className="nav-link" to="/about">
+                <Link
+                  className="nav-link"
+                  to="about-section"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
                   About
                 </Link>
-                <Link className="nav-link" to="/contact">
+                <Link
+                  className="nav-link"
+                  to="contact-section"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
                   Contact
                 </Link>
               </Nav>
@@ -61,11 +84,18 @@ class App extends React.Component {
             path="/"
             exact
             render={() => (
-              <HomePage
-                title={this.state.home.title}
-                subTitle={this.state.home.subTitle}
-                text={this.state.home.text}
-              />
+              <div>
+                <HomePage
+                  title={this.state.home.title}
+                  subTitle={this.state.home.subTitle}
+                  text={this.state.home.text}
+                />
+                <AboutPage title={this.state.about.title} />
+                <ContactPage
+                  id={"section-three"}
+                  title={this.state.contact.title}
+                />
+              </div>
             )}
           />
           <Route
