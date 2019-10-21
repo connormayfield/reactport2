@@ -5,9 +5,7 @@ import Content from "../components/Content";
 import { Form, Button } from "react-bootstrap/";
 import Axios from "axios";
 
-const baseUrl =
-  // "https://connormayfield.herokuapp.com" ||
-  "http://localhost:3030";
+const baseUrl = "http://localhost:3030";
 
 class ContactPage extends React.Component {
   constructor(props) {
@@ -17,7 +15,8 @@ class ContactPage extends React.Component {
       email: "",
       message: "",
       disabled: false,
-      emailSent: null
+      emailSent: null,
+      show: false
     };
   }
 
@@ -106,6 +105,7 @@ class ContactPage extends React.Component {
               variant="primary"
               type="submit"
               disabled={this.state.disabled}
+              onClick={() => this.setState({ show: true })}
             >
               Send
             </Button>

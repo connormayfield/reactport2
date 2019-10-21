@@ -20,6 +20,7 @@ class Carousel extends React.Component {
           subTitle: "Morning Commute Dashboard",
           imgSrc: noLate,
           link: "https://cf512.github.io/NoLate/",
+          gitHub: "https://github.com/connormayfield/NoLate",
           selected: false
         },
         {
@@ -28,6 +29,8 @@ class Carousel extends React.Component {
           subTitle: "A weekly meal planner",
           imgSrc: miseEnPlace,
           link: "https://murmuring-brushlands-67751.herokuapp.com/",
+          gitHub: "https://github.com/connormayfield/project-2",
+
           selected: false
         },
         {
@@ -36,6 +39,8 @@ class Carousel extends React.Component {
           subTitle: "Twitter Analytics",
           imgSrc: tweetTrace,
           link: "https://pure-escarpment-67547.herokuapp.com/",
+          gitHub: "https://github.com/connormayfield/twitter-analysis",
+
           selected: false
         }
       ]

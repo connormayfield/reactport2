@@ -19,7 +19,9 @@
     "react-scripts": "3.1.2",
     "react-scroll": "^1.7.14",
     "react-spring": "^8.0.27",
-    "sendgrid": "^5.2.3"
+    "sendgrid": "^5.2.3",
+    "sweetalert": "^2.1.2",
+    "sweetalert-react": "^0.4.11"
   },
   "scripts": {
     "server": "node server.js",

@@ -11,6 +11,15 @@ function CardInfo(props) {
       <a href={props.link} target="_blank" rel="noopener noreferrer">
         View
       </a>
+      <br />
+      <a
+        href={props.gitHub}
+        id="gitHub"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Github
+      </a>
     </animated.div>
   );
 }
