@@ -16,7 +16,8 @@ class ContactPage extends React.Component {
       message: "",
       disabled: false,
       emailSent: null,
-      show: false
+      show: false,
+      link: "https://bit.ly/32wms90"
     };
   }
 
@@ -99,7 +100,9 @@ class ContactPage extends React.Component {
                 onChange={this.handleChange}
               />
             </Form.Group>
-
+            <a href={this.state.link} rel="noopener noreferrer">
+              Resume
+            </a>
             <Button
               className="d-inline-block"
               variant="primary"
