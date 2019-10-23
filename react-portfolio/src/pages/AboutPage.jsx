@@ -1,11 +1,15 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Content from "../components/Content";
-
+import "../components/CardStyle.css";
 function AboutPage(props) {
   return (
     <div className="about-section" id="about-section">
-      <Hero className="justify-content-center" title={props.title} />
+      <Hero
+        className="justify-content-center"
+        id="aboutHero"
+        title={props.title}
+      />
 
       <Content>
         <p>

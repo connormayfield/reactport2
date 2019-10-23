@@ -1,7 +1,21 @@
-#gitHub {
-  margin-left: 10px;
+.about-section {
+  background-color: #f3f3f3;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-* {
-  background: pink;
+h1 {
+  text-align: center;
+}
+
+nav {
+  font-size: 20px;
+}
+
+.contactPage {
+  background-color: #f3f3f3;
+}
+
+.divvy {
+  padding-top: 20rem;
 }
