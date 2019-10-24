@@ -41,10 +41,13 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-none" bg="transparent" expand="lg">
+          <Navbar className="border-none " bg="transparent" expand="lg">
             <Navbar.Brand>Connor Mayfield</Navbar.Brand>
 
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Toggle
+              className="border-0 nav"
+              aria-controls="navbar-toggle"
+            />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link
@@ -52,8 +55,8 @@ class App extends React.Component {
                   to="main"
                   spy={true}
                   smooth={true}
-                  offset={-70}
-                  duration={500}
+                  offset={-100}
+                  duration={2000}
                 >
                   Home
                 </Link>
@@ -62,8 +65,8 @@ class App extends React.Component {
                   to="about-section"
                   spy={true}
                   smooth={true}
-                  offset={-70}
-                  duration={500}
+                  offset={0}
+                  duration={1500}
                 >
                   About
                 </Link>
@@ -72,8 +75,8 @@ class App extends React.Component {
                   to="contact-section"
                   spy={true}
                   smooth={true}
-                  offset={-70}
-                  duration={500}
+                  offset={-160}
+                  duration={1500}
                 >
                   Contact
                 </Link>

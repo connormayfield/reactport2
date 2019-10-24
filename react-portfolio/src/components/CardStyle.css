@@ -1,19 +1,40 @@
+.main {
+  margin-top: 0rem;
+}
 .about-section {
   background-color: #f3f3f3;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  font: lato;
+  margin: 0;
 }
 
 .about-section p {
   margin-left: -5rem;
 }
 
+.cardDiv {
+  padding-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+/* h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#0099ff, #5000ca);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
 nav {
-  font-size: 20px;
+  font-size: 50px;
+  color: #5000ca;
 }
 
 .contactPage {
   background-color: #f3f3f3;
+  padding: 30px;
+  padding-bottom: 10rem;
+  margin-right: 50px;
 }
 
 .divvy {
@@ -32,6 +53,10 @@ nav {
   font-size: 40px;
 }
 
+.fa-external-link-alt {
+  color: black;
+}
+
 .fa-linkedin {
   color: black;
   font-size: 40px;
@@ -39,8 +64,31 @@ nav {
   border-radius: 100px;
 }
 
+.contactContent {
+  background-color: #5000ca;
+  border-radius: 10px;
+  color: white;
+  padding: 1rem;
+  margin-top: -3rem;
+  font: lato;
+  font-weight: bold;
+}
+
 /* .linkedInImage {
   height: 2.5rem;
   width: 2.5rem;
   margin-left: 30px;
 } */
+
+svg {
+  margin-top: -3rem;
+}
+
+.topDiv {
+  margin-top: 5rem;
+  margin-bottom: ;
+}
+
+.contactSvg {
+  margin-top: -12rem;
+}

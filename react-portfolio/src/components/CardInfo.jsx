@@ -13,7 +13,7 @@ function CardInfo(props) {
         <Row>
           <Col lg={3}>
             <a href={props.link} target="_blank" rel="noopener noreferrer">
-              View
+              <i class="fas fa-external-link-alt"></i>
             </a>
           </Col>
           <Col lg={3}>
