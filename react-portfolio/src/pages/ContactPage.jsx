@@ -63,11 +63,10 @@ class ContactPage extends React.Component {
   render() {
     return (
       <Container fluid className="contactPage">
+        <Hero title={this.props.title} />
         <Row>
           <Col lg={7}>
             <div className="contact-section" id="contact-section">
-              <Hero title={this.props.title} />
-
               <Content>
                 <Form onSubmit={this.handleSubmit}>
                   <Form.Group>
