@@ -3,8 +3,6 @@ import Hero from "../components/Hero";
 import Content from "../components/Content";
 import "../components/CardStyle.css";
 import { Container, Row, Col } from "react-bootstrap";
-import gitHub from "../assets/images/gitHub.svg";
-import linkedIn from "../assets/images/linkedIn.svg";
 
 function AboutPage(props) {
   return (
@@ -33,8 +31,9 @@ function AboutPage(props) {
               <a href="https://www.github.com/connormayfield">
                 <i className="gitHubImage" class="fab fa-github"></i>
               </a>
-
-              <img className="linkedInImage" src={linkedIn} alt="Linkedin" />
+              <a href="https://www.linkedin.com/in/connormayfield">
+                <i className="linkedInImage" class="fab fa-linkedin"></i>
+              </a>
             </Content>
           </Col>
         </Row>

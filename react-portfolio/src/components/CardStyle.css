@@ -29,7 +29,16 @@ nav {
 
 .fa-github {
   color: black;
+  font-size: 40px;
 }
+
+.fa-linkedin {
+  color: black;
+  font-size: 40px;
+  margin-left: 40px;
+  border-radius: 100px;
+}
+
 /* .linkedInImage {
   height: 2.5rem;
   width: 2.5rem;
