@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Content from "../components/Content";
 import "../components/CardStyle.css";
 import { Container, Row, Col } from "react-bootstrap";
+import Blob from "../assets/images/blob-shape1.svg";
 
 function AboutPage(props) {
   return (
@@ -13,6 +14,7 @@ function AboutPage(props) {
           id="aboutHero"
           title={props.title}
         />
+        <img className="blob" alt="blob art" src={Blob}></img>
         <Row>
           <Col lg={12}>
             <Content className="aboutText">

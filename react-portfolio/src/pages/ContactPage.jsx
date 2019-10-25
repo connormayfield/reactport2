@@ -4,6 +4,7 @@ import Content from "../components/Content";
 
 import { Form, Button, Container, Row, Col } from "react-bootstrap/";
 import Axios from "axios";
+import ScrollToTop from "../components/ScrollToTop";
 
 const baseUrl = "http://localhost:3030";
 
@@ -107,7 +108,6 @@ class ContactPage extends React.Component {
             </a> */}
                   <Button
                     className="d-inline-block"
-                    variant="primary"
                     type="submit"
                     disabled={this.state.disabled}
                     onClick={() => this.setState({ show: true })}
@@ -123,6 +123,7 @@ class ContactPage extends React.Component {
                   )}
                 </Form>
               </Content>
+              <ScrollToTop>button</ScrollToTop>
             </div>
           </Col>
           <Col sm={4}>

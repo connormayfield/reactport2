@@ -2,7 +2,7 @@
   margin-top: 0rem;
 }
 .about-section {
-  background-color: #f3f3f3;
+  /* background-color: #f3f3f3; */
   padding-top: 5rem;
   padding-bottom: 5rem;
   font: lato;
@@ -18,29 +18,34 @@
   margin-top: 5rem;
 }
 
-/* h1 {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#0099ff, #5000ca);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
 nav {
-  font-size: 50px;
-  color: #5000ca;
+  font-size: 20px;
 }
 
+.aboutPage {
+  width: 100%;
+}
 .contactPage {
+  width: 100%;
   background-color: #f3f3f3;
   padding: 30px;
   padding-bottom: 10rem;
   margin-right: 50px;
+  margin-bottom: -500rem;
+  height: 46rem;
 }
 
 .divvy {
   padding-top: 5rem;
 }
 
+.shadow {
+  margin-top: 0rem;
+}
+
+.purpShadow {
+  margin-top: -22rem;
+}
 .linkedInImage {
   height: 2.5rem;
   width: 2.5rem;
@@ -82,6 +87,7 @@ nav {
 
 svg {
   margin-top: -3rem;
+  width: 100%;
 }
 
 .topDiv {
@@ -91,4 +97,24 @@ svg {
 
 .contactSvg {
   margin-top: -12rem;
+}
+
+.btn {
+  background-color: #5000ca !important;
+  font-weight: bold !important;
+  font: lato !important;
+}
+
+.blob {
+  margin: 0;
+  margin-top: -39rem;
+  margin-left: 50rem;
+  padding: 0;
+  width: 600px;
+  height: 600px;
+  margin-bottom: -20rem;
+}
+
+.uppy {
+  height: 500px;
 }

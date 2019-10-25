@@ -6,8 +6,6 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-import Footer from "./components/Footer";
-
 import "./App.css";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
@@ -42,8 +40,6 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-none " bg="transparent" expand="lg">
-            <Navbar.Brand>Connor Mayfield</Navbar.Brand>
-
             <Navbar.Toggle
               className="border-0 nav"
               aria-controls="navbar-toggle"
@@ -98,6 +94,16 @@ class App extends React.Component {
                   id={"section-three"}
                   title={this.state.contact.title}
                 />
+                <Link
+                  className="toTop"
+                  to="main"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={2000}
+                >
+                  <i class="fas fa-arrow-circle-up uppy"></i>
+                </Link>
               </div>
             )}
           />
@@ -109,7 +115,6 @@ class App extends React.Component {
             path="/contact"
             render={() => <ContactPage title={this.state.contact.title} />}
           />
-          <Footer />
         </Container>
       </Router>
     );
