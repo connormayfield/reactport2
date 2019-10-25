@@ -13,6 +13,10 @@
   margin-left: -5rem;
 }
 
+.aboutPage {
+  width: 100%;
+}
+
 .cardDiv {
   padding-bottom: 5rem;
   margin-top: 5rem;
@@ -22,9 +26,6 @@ nav {
   font-size: 20px;
 }
 
-.aboutPage {
-  width: 100%;
-}
 .contactPage {
   width: 100%;
   background-color: #f3f3f3;
@@ -32,7 +33,7 @@ nav {
   padding-bottom: 10rem;
   margin-right: 50px;
   margin-bottom: -500rem;
-  height: 46rem;
+  height: 51rem;
 }
 
 .divvy {
@@ -79,12 +80,6 @@ nav {
   font-weight: bold;
 }
 
-/* .linkedInImage {
-  height: 2.5rem;
-  width: 2.5rem;
-  margin-left: 30px;
-} */
-
 svg {
   margin-top: -3rem;
   width: 100%;
@@ -97,6 +92,7 @@ svg {
 
 .contactSvg {
   margin-top: -12rem;
+  width: 100%;
 }
 
 .btn {
