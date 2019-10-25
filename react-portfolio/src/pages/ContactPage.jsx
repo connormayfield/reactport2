@@ -4,7 +4,7 @@ import Content from "../components/Content";
 
 import { Form, Button, Container, Row, Col } from "react-bootstrap/";
 import Axios from "axios";
-import ScrollToTop from "../components/ScrollToTop";
+// import ScrollToTop from "../components/ScrollToTop";
 
 const baseUrl = "http://localhost:3030";
 
@@ -123,7 +123,7 @@ class ContactPage extends React.Component {
                   )}
                 </Form>
               </Content>
-              <ScrollToTop>button</ScrollToTop>
+              {/* <ScrollToTop>button</ScrollToTop> */}
             </div>
           </Col>
           <Col sm={4}>
