@@ -1,9 +1,9 @@
 import React from "react";
 
 import Card from "../components/Card";
-import miseEnPlace from "../assets/images/miseEnPlace.png";
-import noLate from "../assets/images/noLate.png";
-import tweetTrace from "../assets/images/tweetTrace.png";
+import miseEnPlace from "../assets/images/miseEnPlace.jpg";
+import noLate from "../assets/images/noLate.jpg";
+import tweetTrace from "../assets/images/tweetTrace.jpg";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
