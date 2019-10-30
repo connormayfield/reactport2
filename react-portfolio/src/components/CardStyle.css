@@ -34,6 +34,7 @@ nav {
   background-color: #f3f3f3;
   padding: 30px;
   padding-bottom: 10rem;
+  margin-top: -2rem;
   margin-right: 50px;
   margin-bottom: -500rem;
   height: 56.5rem;
@@ -129,4 +130,14 @@ nav {
 
 .contact-section {
   padding-bottom: 5rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.aboutParagraph {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 2rem !important;
 }

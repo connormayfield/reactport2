@@ -18,18 +18,16 @@ function AboutPage(props) {
         <Row>
           <Col lg={12}>
             <Content className="aboutText">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
-                perferendis non voluptatem voluptatum laudantium! Animi ad sit
-                dignissimos quibusdam id, deleniti, ex fugit atque sed at quasi
-                a voluptates velit! Lorem ipsum dolor sit amet
+              <p className="aboutParagraph">
+                Self-motivated web developer looking to bring my strong work
+                ethic and creativity from my experience in the restaurant
+                industry to a new field where I can learn and grow. Experienced
+                in each stage of website creation, from creating wireframes to
+                deployment. Proven track record of overseeing and working with
+                others to create a productive work environment and accomplish
+                goals.
               </p>
-              <p>
-                consectetur adipisicing elit. Incidunt, ad. Dolores nam, ullam
-                facilis nesciunt iste quae expedita quos rem sint debitis
-                accusantium consequuntur mollitia obcaecati nihil placeat illum
-                corrupti?
-              </p>
+
               <a href="https://www.github.com/connormayfield">
                 <i className="gitHubImage" class="fab fa-github"></i>
               </a>

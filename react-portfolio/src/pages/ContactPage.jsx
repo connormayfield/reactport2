@@ -129,10 +129,20 @@ class ContactPage extends React.Component {
           <Col sm={4}>
             <div className="divvy">
               <p className="contactContent">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aliquid iste fuga accusantium quod harum dicta hic obcaecati,
-                praesentium consequuntur, commodi itaque, non soluta illum.
-                Temporibus iste eaque assumenda eveniet obcaecati?
+                <ul>
+                  <li className="phoneNumber">Phone Number</li>
+                  <li>402 681 6403</li>
+                  <br />
+                  <li>Email</li>
+                  <li>connormayfield@gmail.com</li>
+                  <br />
+                  <a href="https://www.github.com/connormayfield">
+                    <i className="gitHubImage" class="fab fa-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/connormayfield">
+                    <i className="linkedInImage" class="fab fa-linkedin"></i>
+                  </a>
+                </ul>
               </p>
             </div>
           </Col>
