@@ -138,8 +138,7 @@ class ContactPage extends React.Component {
           </Col>
         </Row>
         <svg
-          width="100%"
-          className="contactSvg"
+          className="bottomContactSvg"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
         >
