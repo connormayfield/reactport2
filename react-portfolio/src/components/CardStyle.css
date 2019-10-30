@@ -139,5 +139,6 @@ li {
 .aboutParagraph {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  letter-spacing: 0.1em;
   font-size: 2rem !important;
 }
