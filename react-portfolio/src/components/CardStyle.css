@@ -36,11 +36,15 @@ nav {
   padding-bottom: 10rem;
   margin-right: 50px;
   margin-bottom: -500rem;
-  height: 51rem;
+  height: 56.5rem;
 }
 
 .divvy {
   padding-top: 4.5rem;
+}
+
+.homeSvg {
+  margin-top: -5rem;
 }
 
 .upSideDownSvg {
@@ -83,10 +87,10 @@ nav {
   font-weight: bold;
 }
 
-svg {
+/* svg {
   margin-top: -3rem;
   width: 100%;
-}
+} */
 
 .topDiv {
   margin-top: 8em;
@@ -109,8 +113,8 @@ svg {
   margin-top: -39rem;
   margin-left: 50rem;
   padding: 0;
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   margin-bottom: -20rem;
 }
 
