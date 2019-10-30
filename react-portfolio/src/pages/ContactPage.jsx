@@ -130,18 +130,19 @@ class ContactPage extends React.Component {
             <div className="divvy">
               <p className="contactContent">
                 <ul>
+                  <br />
                   <li className="phoneNumber">Phone Number</li>
                   <li>402 681 6403</li>
                   <br />
                   <li>Email</li>
                   <li>connormayfield@gmail.com</li>
                   <br />
-                  <a href="https://www.github.com/connormayfield">
+                  {/* <a href="https://www.github.com/connormayfield">
                     <i className="gitHubImage" class="fab fa-github"></i>
                   </a>
                   <a href="https://www.linkedin.com/in/connormayfield">
                     <i className="linkedInImage" class="fab fa-linkedin"></i>
-                  </a>
+                  </a> */}
                 </ul>
               </p>
             </div>

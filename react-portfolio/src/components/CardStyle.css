@@ -84,14 +84,10 @@ nav {
   color: white;
   padding: 1rem;
   margin-top: -3rem;
+  height: 13rem;
   font: lato;
   font-weight: bold;
 }
-
-/* svg {
-  margin-top: -3rem;
-  width: 100%;
-} */
 
 .topDiv {
   margin-top: 8em;
@@ -120,10 +116,6 @@ nav {
   margin-bottom: -20rem;
 }
 
-.uppy {
-  height: 500px;
-}
-
 .contactTopSvg {
   margin-bottom: -3rem;
 }
@@ -140,5 +132,5 @@ li {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   letter-spacing: 0.1em;
-  font-size: 2rem !important;
+  font-size: 2rem;
 }
